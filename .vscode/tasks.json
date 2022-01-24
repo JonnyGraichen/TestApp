@@ -9,31 +9,7 @@
         "kind": "build",
         "isDefault": true
       },
-      "problemMatcher": [
-        "$tsc-watch"
-      ]
-    },
-    {
-      "type": "npm",
-      "script": "build",
-      "problemMatcher": [
-        "$tsc"
-      ]
-    },
-    {
-      "type": "npm",
-      "script": "watch",
-      "isBackground": true,
-      "problemMatcher": [
-        "$tsc-watch"
-      ]
-    },
-    {
-      "type": "npm",
-      "script": "lint",
-      "problemMatcher": [
-        "$eslint-stylish"
-      ]
+      "problemMatcher": []
     },
     {
       "type": "npm",
@@ -43,8 +19,6 @@
         "isDefault": true
       },
       "problemMatcher": [
-        "$eslint-stylish",
-        "$tsc"
       ]
     }
   ]

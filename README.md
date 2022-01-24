@@ -1,4 +1,4 @@
-# BuildApp
+# BuildAPp
 
 ## Run
 
@@ -20,10 +20,10 @@ This will start a Tabris.js code server at a free port and print its URL to the 
 Alternatively you can also call the Tabris CLI directly:
 
 ```
-tabris serve -a -w
+tabris serve -a
 ```
 
-This the same as running `npm start`. The `-w` switch starts the compiler in watch mode, meaning you do not have to re-start the server after each code change, and `-a` causes the app to reload automatically as well.
+This the same as running `npm start`. The `-a` switch enables automatic reload whenever a source file changes.
 
 ## Test
 
@@ -33,9 +33,7 @@ This project includes a ESLint configuration that helps preventing common mistak
 npm test
 ```
 
-This will also check for compile errors.
-
-The initial rules defined in `.eslintrc` are supposed to warn against problematic patterns, but not enforce a strict code style. You may want to [adjust them](https://eslint.org/docs/rules/) according to your taste. TypeScript specific rules are documented [here](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin) and JSX-Syntax specific rules [here](https://github.com/yannickcr/eslint-plugin-react). These can only be used in the dedicated `override` section of `.eslintrc`.
+The initial rules defined in `.eslintrc` are supposed to warn against problematic patterns, but not enforce a strict code style. You may want to [adjust them](https://eslint.org/docs/rules/) according to your taste.
 
 ## Debugging
 
